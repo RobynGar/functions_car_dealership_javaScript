@@ -8,3 +8,5 @@ const Car = function(manufacturer, price, engineType){
     this.engineType = engineType;
 
 }
+
+module.exports = Car;
