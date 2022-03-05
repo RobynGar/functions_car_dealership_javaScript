@@ -5,14 +5,23 @@
 // Find all the cars from a given manufacturer
 // Find the total value of all the cars in stock.
 
-const Dealership= function(name, maxCars){
+const Dealership= function(name, maxCars, stock = []){
     this.name = name;
     this.maxCars = maxCars;
-    this.stock = 0;
+    this.stock = stock;
 }
 
-Dealership.prototype.countCarStock =function(stock){
+// count cars in stock
+Dealership.prototype.countCar = function(stock){
+    const stock = [];
+    console.log(stock.length);
     
+}
+
+// add car to stock
+Dealership.prototype.addCar =function(stock, car){
+    const stock = [];
+    stock.push("car");
 }
 
 module.exports = Dealership;
