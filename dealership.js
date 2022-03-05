@@ -1,9 +1,9 @@
-// Add methods to Dealership to:
-// Count the number of cars in stock
-// Add a car to stock
-// Return an array containing each car's manufacturer
+
+
 // Find all the cars from a given manufacturer
 // Find the total value of all the cars in stock.
+
+const Car = require("./car");
 
 const Dealership= function(name, maxCars, stock = []){
     this.name = name;
@@ -19,9 +19,15 @@ Dealership.prototype.countCar = function(stock){
 }
 
 // add car to stock
-Dealership.prototype.addCar =function(stock, car){
+Dealership.prototype.addCar =function(stock, Car){
     const stock = [];
-    stock.push("car");
+    stock.push("Car");
+}
+
+// Return an array containing each car's manufacturer
+Dealership.prototype.carsManufacturer = function(stock){
+    const carManufacturer = [];
+    
 }
 
 module.exports = Dealership;
