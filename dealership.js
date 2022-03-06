@@ -11,22 +11,24 @@ const Dealership= function(name, maxCars, stock = []){
     this.stock = stock;
 }
 
+
 // count cars in stock
-Dealership.prototype.countCar = function(stock){
-    const stock = [];
-    console.log(stock.length);
+Dealership.prototype.countCar = function(){
+    let getStock = this.stock.length
+    return getStock;
     
 }
 
+
 // add car to stock
-Dealership.prototype.addCar =function(stock, Car){
-    const stock = [];
+Dealership.prototype.addCar = function(stock, Car){
+   
     stock.push("Car");
 }
 
 // Return an array containing each car's manufacturer
 Dealership.prototype.carsManufacturer = function(stock){
-    const carManufacturer = [];
+    
     
 }
 
