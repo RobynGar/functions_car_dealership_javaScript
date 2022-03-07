@@ -1,4 +1,3 @@
-//manufacturer, price and engine type.
 
 // class is Car
 // constructor for class Car

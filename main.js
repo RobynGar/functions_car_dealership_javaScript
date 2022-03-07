@@ -9,6 +9,7 @@ dealersWheels.stock.push(mini);
 console.log(dealersWheels);
 let countDW = dealersWheels.stock.length;
 console.log(countDW);
-
+dealersWheels.addCar(mini);
 
 console.log(dealersWheels.countCar());
+console.log(dealersWheels);
