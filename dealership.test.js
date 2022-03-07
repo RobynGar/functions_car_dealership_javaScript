@@ -8,7 +8,7 @@ describe ("dealership tests", function(){
     const car = new Car ("Honda", 20_000, "petrol");
     const dealershipTest = new Dealership("test", 5, [car]);
     
-        actual = dealershipTest.countCar; 
+        actual = dealershipTest.countCar(); 
         expected = 1;
         expect(actual).toBe(expected);
     

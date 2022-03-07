@@ -11,4 +11,4 @@ let countDW = dealersWheels.stock.length;
 console.log(countDW);
 
 
-console.log(dealersWheels.countCar);
+console.log(dealersWheels.countCar());

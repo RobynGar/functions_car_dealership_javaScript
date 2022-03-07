@@ -23,7 +23,7 @@ Dealership.prototype.countCar = function(){
 // add car to stock
 Dealership.prototype.addCar = function(stock, Car){
    
-    stock.push("Car");
+    this.stock.push("Car");
 }
 
 // Return an array containing each car's manufacturer
